@@ -24,7 +24,7 @@ e.g. the namespace #'cloverage-experiment.error is the below code.
 
 this namespace is isolated because it has no requiements.
 
-and then, the namespace ~cloverage-experiment.core~ is the below code.
+and then, the namespace #'cloverage-experiment.core is the below code.
 
 ```clojure
 (ns cloverage-experiment.core
