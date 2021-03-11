@@ -6,7 +6,7 @@ lein cloverage @1.2.2 bug's report
 
 isolated code is not watched by cloverage.
 
-e.g. the namespace ~cloverage-experiment.error~ is the below code.
+e.g. the namespace #'cloverage-experiment.error is the below code.
 
 ```clojure
 (ns cloverage-experiment.utils.error)
