@@ -45,12 +45,13 @@ this namespace is not isolated because it requires #'clojure.core
 so that, cloverage result is here.
 
 ```text
-lein cloverage                                                                           ✘ 1
+/r/m/m/P/G/c/src ❯❯❯ lein cloverage                                                                           main
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Loading namespaces:  (cloverage-experiment.core)
+Loading namespaces:  (cloverage-experiment.utils.string cloverage-experiment.core)
 Test namespaces:  (cloverage-experiment.core-test)
+Instrumented cloverage-experiment.utils.string
 Instrumented cloverage-experiment.core
-Instrumented 1 namespaces in 0.0 seconds.
+Instrumented 2 namespaces in 0.0 seconds.
 
 Testing cloverage-experiment.core-test
 
@@ -64,11 +65,12 @@ Ran 1 tests containing 1 assertions.
 Ran tests.
 Writing HTML report to: /run/media/meguru/P/Github/cloverage-experiment/target/coverage/index.html
 
-|---------------------------+---------+---------|
-|                 Namespace | % Forms | % Lines |
-|---------------------------+---------+---------|
-| cloverage-experiment.core |   30.00 |   60.00 |
-|---------------------------+---------+---------|
-|                 ALL FILES |   30.00 |   60.00 |
-|---------------------------+---------+---------|
+|-----------------------------------+---------+---------|
+|                         Namespace | % Forms | % Lines |
+|-----------------------------------+---------+---------|
+|         cloverage-experiment.core |   30.00 |   60.00 |
+| cloverage-experiment.utils.string |   11.76 |   66.67 |
+|-----------------------------------+---------+---------|
+|                         ALL FILES |   18.52 |   62.50 |
+|-----------------------------------+---------+---------|
 ```

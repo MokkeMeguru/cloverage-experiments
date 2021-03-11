@@ -1,4 +1,5 @@
-(ns cloverage-experiment.utils.string)
+(ns cloverage-experiment.utils.string
+  (:require [clojure.core]))
 
 (defn rand-str "
   generate random string with the length 'len
